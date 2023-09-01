@@ -12,7 +12,11 @@ This **Gesture_Encoding_Analysis.m** script will run other functions in the repo
 2. Latent space alignment
 3. Generation of Gesture dendrograms based on the similarity of the neural activity patterns
 4. Visualization of Neural latent spaces (3D plots)
-5. Classification using the combined latent spaces 
+5. Classification using the combined latent spaces
+
+The script will load processed data in 'Gesture_Encoding_processed_data.mat'.
+Access the datata file here: \\files22.brown.edu\LRSResearch\ENG_BrainGate_Shared\BG2\UserShare\Carlos\GesturePaperRepo 
+NOTE: will be updated with the Dryad link once the paper is accepted
 
 %%%%%%%%%%%%%%%%%% Variables & data organization
 
