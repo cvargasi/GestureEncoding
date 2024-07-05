@@ -24,15 +24,15 @@
 % 
 % labels: data structure with informational labels for each trial of the 8249 trials in the concatenated data structure.
 %     Includes the following fields: 
-%     sessid: [8249×1 double]     session # (1-8). Sessions 1-6 correspond to participant T11, 7 and 8 to T5.
-%     gest: [8249×1 string]       the gesture cued for each trial
-%     DGid: [8249×1 double]       gesture group derived from T11 dendrogram (1-7)
-%     LRid: [8249×1 double]       Left (1) or Right (2) hand
-%     FlexExtid: [8249×1 double]  Flexion (1) or extension (2)
-%     gestNLR: [8249×1 string]    Gesture labels that omit the Left / Right designations 
+%     sessid: [8249Ã—1 double]     session # (1-8). Sessions 1-6 correspond to participant T11, 7 and 8 to T5.
+%     gest: [8249Ã—1 string]       the gesture cued for each trial
+%     DGid: [8249Ã—1 double]       gesture group derived from T11 dendrogram (1-7)
+%     LRid: [8249Ã—1 double]       Left (1) or Right (2) hand
+%     FlexExtid: [8249Ã—1 double]  Flexion (1) or extension (2)
+%     gestNLR: [8249Ã—1 string]    Gesture labels that omit the Left / Right designations 
 %     
 %     Plus the following fields, which contain the names for specific groups (used to label figures)
-%     DGnames: {1×7 cell}         
+%     DGnames: {1Ã—7 cell}         
 %     LRnames: {'Left'  'Right'}
 %     FlexExt: {'Flexion'  'Extension'}
 %     
@@ -80,7 +80,7 @@ RLcolormat = [0 0 0; lines((6)); 0 0 0 ];
 colormat = [lines((6)); 0 0 0 ];
 
  figure
-for n = 4:6
+for n = 1:6
 f = find( labels.sessid == n & labels.DGid>0);
 skittlesPlot( UNI_C(f,:) , labels.DGid(f), radius, spherepoints,colormat);
 hold on 
