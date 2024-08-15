@@ -25,14 +25,29 @@
 % labels: data structure with informational labels for each trial of the 8249 trials in the concatenated data structure.
 %     Includes the following fields: 
 %     sessid: [8249×1 double]     session # (1-8). Sessions 1-6 correspond to participant T11, 7 and 8 to T5.
+% 		  session ID 1: T11 trial day 219
+%			             2: T11 trial day 227
+%			             3: T11 trial day 248
+%			             4: T11 trial day 854
+%			             5: T11 trial day 856
+%			             6: T11 trial day 861
+%			             7: T5 trial day 2084
+%			             8: T5 trial day 2255
 %     gest: [8249×1 string]       the gesture cued for each trial
 %     DGid: [8249×1 double]       gesture group derived from T11 dendrogram (1-7)
+%     dendrogram group 1: Finger Flex.
+%                      2: Thumb
+%                      3: Grasp
+%                      4: Abduction
+%                      5: Extension
+%                      6: Wrist
+%                      7: Do Nothing
 %     LRid: [8249×1 double]       Left (1) or Right (2) hand
 %     FlexExtid: [8249×1 double]  Flexion (1) or extension (2)
 %     gestNLR: [8249×1 string]    Gesture labels that omit the Left / Right designations 
 %     
 %     Plus the following fields, which contain the names for specific groups (used to label figures)
-%     DGnames: {1×7 cell}         
+%     DGnames: {'Finger Flex.'}    {'Thumb'}    {'Grasp'}    {'Abduction'}    {'Extension'}    {'Wrist'}    {'Do Nothing'}        
 %     LRnames: {'Left'  'Right'}
 %     FlexExt: {'Flexion'  'Extension'}
 %     
