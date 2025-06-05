@@ -1,7 +1,9 @@
 # Gesture Encoding in human left premotor cortex neuronal ensembles
 
 Analysis code for: Gesture Encoding in human left premotor cortex neuronal ensembles
+Communications Biology (Conditionally accepted)
 Biorxiv Preprint: https://doi.org/10.1101/2024.08.23.608325
+Dryad dataset https://doi.org/10.5061/dryad.cvdncjtcq
 
 Carlos Vargas-Irwin, Brown University
 https://orcid.org/0000-0002-3526-3754
@@ -16,7 +18,7 @@ This **Gesture_Encoding_Analysis.m** script will run other functions in the repo
 5. Classification using the combined latent spaces
 
 The script will load processed data in 'Gesture_Encoding_processed_data.mat'.
-The data is available through a reposotyro ond Dryad (Dataset DOI: 10.5061/dryad.cvdncjtcq)
+The data is available through a reposotyro ond Dryad (https://doi.org/10.5061/dryad.cvdncjtcq)
 
 
 %%%%%%%%%%%%%%%%%% Variables & data organization
